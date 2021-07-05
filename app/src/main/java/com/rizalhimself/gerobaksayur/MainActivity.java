@@ -14,10 +14,10 @@ import fargment.KeranjangFragment;
 
 public class MainActivity extends AppCompatActivity {
 
-    val fargmentHome: Fragment = HomeFragment ()
-    val fargmentAkun: Fragment = AkunFragment ()
-    val fargmentKeranjang: Fragment = KeranjangFragment ()
-    val fm: FragmentManager =
+    private val fargmentHome: Fragment = HomeFragment ()
+    private val fargmentAkun: Fragment = AkunFragment ()
+    private val fargmentKeranjang: Fragment = KeranjangFragment ()
+    private val fm: FragmentManager =
 
     @NonNull
     @Override
