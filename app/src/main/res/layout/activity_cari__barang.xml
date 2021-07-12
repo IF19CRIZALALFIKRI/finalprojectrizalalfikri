@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F1F1F3"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!---navigasi bar-->
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grobak Sayur"
+                android:textSize="19dp"
+                android:textStyle="bold"/>
+            <RelativeLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:gravity="left|center_vertical"
+                android:drawableStart="@drawable/ic_baseline_black_24"
+                android:textColor="@color/black"
+                android:text="Cari Barang Disini"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_cari"/>
+            <RelativeLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                app:cardCornerRadius="5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="37dp"
+                android:layout_height="37dp">
+                <Button
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_baseline_favorite_24"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </androidx.cardview.widget.CardView>
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <!--header-->
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:background="@drawable/heder"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+            <!--spalsh-->
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-100dp"
+                android:background="@drawable/splash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="true"
+                        android:src="@drawable/Bayam"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Kangkung"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="Rp.5.000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="4 Ikat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:backgroundTint="@color/black"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:text="Ambil Promo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <!--titel swip-->
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Produk Kami"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
