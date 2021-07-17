@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:id="@+id/listBarang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/ivFoto"
+        app:srcCompat= "@android:drawable/sym_def_app_icon" />
+    <TextView
+        android:id="@+id/tvNamaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/ivFoto"
+        android:layout_toRightOf="@+id/ivFoto"
+        android:text="Nama Barang"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvStokBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNamaBarang"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/ivFoto"
+        android:layout_toRightOf="@+id/ivFoto"
+        android:text="Stok Barang" />
+
+    <TextView
+        android:id="@+id/tvHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvStokBarang"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/ivFoto"
+        android:layout_toRightOf="@+id/ivFoto"
+        android:text="Harga Rp" />
+    <Button
+        android:id="@+id/btTambah"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/tvNamaBarang"
+        android:layout_marginLeft="100dp"
+        android:text="Tambah"
+        android:textSize="4pt"/>
+
+</RelativeLayout>

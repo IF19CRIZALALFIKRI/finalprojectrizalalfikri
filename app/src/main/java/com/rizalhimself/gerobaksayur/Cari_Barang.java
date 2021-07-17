@@ -9,6 +9,6 @@ public class Cari_Barang extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cari__barang);
+        setContentView(R.layout.activity_caribarang);
     }
 }
