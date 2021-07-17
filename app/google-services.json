@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468501523474",
+    "project_id": "gerobaksayurr-7d023",
+    "storage_bucket": "gerobaksayurr-7d023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468501523474:android:463df85b0997dfb302fccb",
+        "android_client_info": {
+          "package_name": "com.rizalhimself.gerobaksayur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468501523474-85f45ijnio8bf7oq5foqbjfd7ftfg63r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCZ7lTXrjGsfHsXLQW8u-HbsD33jQAWe8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468501523474-85f45ijnio8bf7oq5foqbjfd7ftfg63r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
