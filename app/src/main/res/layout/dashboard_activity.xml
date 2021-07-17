@@ -13,12 +13,17 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="50dp"
-            android:text="Dashboard"/>
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:text="Konfirmasi Barang Diterima"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="25dp"
+            android:textColor="@color/black"
+            android:gravity="center"
             android:text="Rating pelayanan konsumen"/>
 
         <RatingBar
@@ -31,55 +36,48 @@
             android:numStars="5"
             android:max="5"
             android:layout_marginTop="5dp"
-            style="@style/Widget.AppCompat.RatingBar"
+            android:style="@style/Widget.AppCompat.RatingBar"
             />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="200dp">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <androidx.appcompat.widget.AppCompatButton
+        <Button
             android:layout_width="wrap_content"
-            android:gravity="center"
-            android:textSize="20dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_height="wrap_content"
-            android:text="Detail Stok"/>
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
             android:gravity="center"
-            android:layout_gravity="center"
-            android:textSize="20dp"
+            android:text="Complain"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Detail Penjualan"/>
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
             android:gravity="center"
-            android:textSize="20dp"
-            android:layout_gravity="center"
-            android:layout_height="wrap_content"
-            android:text="Komplain"/>
-    </LinearLayout>
+            android:text="Dengan ini saya menyatakan barang diterima dengan baik"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:orientation="horizontal">
 
-        <androidx.appcompat.widget.AppCompatButton
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="270dp"
-            android:layout_gravity="bottom"
-            android:layout_marginBottom="2dp"
-            android:textSize="25dp"
-            android:text="Keluar"
-            />
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:text="Profil"
+            android:textSize="18dp" />
 
-
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Selesai"
+            android:textSize="20dp" />
 
     </LinearLayout>
-
 </LinearLayout>
+
