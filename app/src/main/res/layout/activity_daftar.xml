@@ -4,10 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Daftar_Activity">
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -18,7 +17,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="150dp"
-        android:layout_marginRight="60dp"/>
+        android:layout_marginRight="60dp"
+        android:id="@+id/etDaftarUsername"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -32,7 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="150dp"
         android:layout_marginRight="60dp"
-        android:layout_marginTop="25dp"/>
+        android:layout_marginTop="25dp"
+        android:id="@+id/etDaftarPassword"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -46,7 +47,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="150dp"
         android:layout_marginRight="60dp"
-        android:layout_marginTop="55dp"/>
+        android:layout_marginTop="55dp"
+        android:id="@+id/etDaftarNama"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -60,7 +62,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="150dp"
         android:layout_marginRight="60dp"
-        android:layout_marginTop="85dp"/>
+        android:layout_marginTop="85dp"
+        android:id="@+id/etDaftarAlamat"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -73,14 +76,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="145dp"
-        android:text="Laki-Laki"/>
+        android:text="Laki-Laki"
+        android:id="@+id/rdDaftarLaki"/>
 
     <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="145dp"
         android:layout_marginLeft="100dp"
-        android:text="Perempuan"/>
+        android:text="Perempuan"
+        android:id="@+id/rdDaftarPerempuan"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -94,7 +99,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="165dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginRight="60dp"/>
+        android:layout_marginRight="60dp"
+        android:id="@+id/etDaftarTglLahir"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -108,7 +114,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="195dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginRight="60dp"/>
+        android:layout_marginRight="60dp"
+        android:id="@+id/etDaftarNoKtp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -122,7 +129,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="225dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginRight="60dp"/>
+        android:layout_marginRight="60dp"
+        android:id="@+id/etDaftarNoTelp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -132,12 +140,13 @@
         android:layout_marginTop="270dp"/>
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="10dp"
-        android:text="brows"
+        android:text="browse"
         android:layout_marginRight="330dp"
-        android:layout_marginTop="290dp"/>
+        android:layout_marginTop="290dp"
+        android:id="@+id/btDaftarUlPhoto"/>
 
     <Button
         android:layout_width="match_parent"
@@ -147,6 +156,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:text="DAFTAR"
-        android:textSize="10dp" />
+        android:textSize="10dp"
+        android:id="@+id/btDaftarSaveData"/>
 
 </RelativeLayout>

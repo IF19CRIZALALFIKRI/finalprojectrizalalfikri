@@ -10,8 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GerobakSayur" >
         <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main" >
+            android:name=".Daftar_Activity"
+            android:label="Daftar Akun">
+        </activity>
+        <activity
+            android:name=".Activity_Login"
+            android:label="Login" >
         </activity>
         <activity
             android:name=".SplashScreen"
