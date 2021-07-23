@@ -1,20 +1,32 @@
 package com.rizalhimself.gerobaksayur;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class Daftar_Activity extends AppCompatActivity {
+    FirebaseDatabase database;
+    DatabaseReference dataUser;
     EditText etDaftarUsername, etDaftarPassword, etDaftarNama, etDaftarAlamat,
             etDaftarTglLahir, etDaftarNoKtp, etDaftarNoTelp;
     RadioButton rdDaftarLaki, rdDaftarPerempuan;
     Button btDaftarUlPhoto, btDaftarSaveData;
 
+    final int KodeGallery = 100, KodeKamera = 99;
+    Uri imageUri;
 
     @Override
     protected void onCreate(@Nullable @org.jetbrains.annotations.Nullable Bundle savedInstanceState) {
@@ -38,6 +50,11 @@ public class Daftar_Activity extends AppCompatActivity {
         btDaftarSaveData = findViewById(R.id.btDaftarSaveData);
         btDaftarUlPhoto = findViewById(R.id.btDaftarUlPhoto);
 
+        btDaftarUlPhoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+            }
+        });
     }
 }

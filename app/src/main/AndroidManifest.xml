@@ -11,11 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GerobakSayur" >
         <activity
-            android:name=".Daftar_Activity"
+            android:name=".register2"
             android:label="Daftar Akun">
         </activity>
         <activity
-            android:name=".Activity_Login"
+            android:name=".login2"
             android:label="Login" >
         </activity>
         <activity

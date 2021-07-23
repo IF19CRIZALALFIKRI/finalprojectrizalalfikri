@@ -1,10 +1,9 @@
 package com.rizalhimself.gerobaksayur;
 
+import android.app.Activity;
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class ActivityProfil extends AppCompatActivity {
+public class ActivityProfil extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
